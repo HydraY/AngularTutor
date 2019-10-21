@@ -1,0 +1,35 @@
+.outContainer{
+  height:500px;
+  width:100%;
+  display:flex;
+  align-items: center;
+  flex-direction:column;
+  background:linear-gradient(to bottom right,steelblue,rgb(196, 116, 182));
+}
+.bigTitle{
+  margin-top: 100px;
+  color:white;
+  font-size:50px;
+  font-family: 微软雅黑;
+}
+.smallTitle{
+  margin-top: 60px;
+  color:white;
+  font-size:18px;
+  font-family: Arial,"DengXian Light";
+}
+.buttonBoxes{
+  margin-top: 20px;
+  width : 600px;
+  height : 100px;
+  display:flex;
+  align-items:center;
+  justify-content: space-evenly;
+}
+.buttonBox{
+  width : 100px;
+  height : 40px;
+  border: white 1px solid;
+  color:white;
+  background-color: Transparent;
+}
